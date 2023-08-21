@@ -1,1 +1,1 @@
-# project-landing-page
+The purpose of this project is to practice building a webpage using Flexboxes. 
