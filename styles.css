@@ -1,0 +1,166 @@
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+
+}
+
+header {
+    background-color: #1F2937;
+    width: 100%;
+}
+
+.navbar {
+    margin:0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: auto;
+    min-width: 300px;
+    font-size: 18px;
+}
+
+.banner-content img {
+    max-width: 600px;
+    width: 100%;
+}
+
+.logo {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+header a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+}
+
+.banner {
+    width: 100%;
+    background-color: #1F2937;
+}
+
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    margin:0 auto;
+    max-width: 1200px;
+}
+
+.banner-left {
+    max-width: 400px;
+}
+
+.banner h1 {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.banner p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.banner button {
+    padding: 7px 16px;
+    font-size: 16px;
+    color: #E5E7EB;
+    font-weight: 700;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+
+}
+.information-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.information-card {
+    max-width: 200px;
+    text-align: center;
+}
+
+.information-card img {
+    max-width: 200px;
+    border-radius: 15px;
+}
+
+.information {
+    width: 100%;
+}
+
+.information-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.information h1 {
+    margin: 50px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quotes { 
+    background-color: #E5E7EB;
+    width: 100%;
+}
+
+.quotes-content p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quotes-content h3 {
+    text-align: end;
+    font-weight: 900;
+}
+.quotes-content {
+    margin:100px auto;
+    max-width: 900px;
+}
